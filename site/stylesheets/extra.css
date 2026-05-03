@@ -1,55 +1,111 @@
+/* Core colours — muted dark palette */
 :root {
-  /* Primary (black theme base) */
-  --md-primary-fg-color: #000000;
-  --md-primary-fg-color--light: #1a1a1a;
-  --md-primary-fg-color--dark: #000000;
+  --md-primary-fg-color:        #1e2127;   /* dark charcoal header/nav */
+  --md-primary-fg-color--light: #2c313a;
+  --md-primary-fg-color--dark:  #16191f;
 
-  /* Accent (RED from your logo) */
-  --md-accent-fg-color: #c8102e;
-  --md-accent-fg-color--transparent: rgba(200, 16, 46, 0.1);
+  --md-accent-fg-color:         #5a9e78;   /* muted sage green */
+  --md-accent-fg-color--transparent: rgba(90, 158, 120, 0.12);
 
-  /* Links (GREEN from your logo) */
-  --md-typeset-a-color: #00a859;
+  --md-default-bg-color:        #181b21;   /* softer than pure black */
+  --md-default-fg-color:        #c9cdd6;   /* warm light grey for text */
+  --md-default-fg-color--light: #8b919e;
+  --md-default-fg-color--lighter: #5a6070;
 
-  /* Remove teal completely */
-  --md-default-fg-color--accent: #c8102e;
+  --md-typeset-a-color:         #6aab8a;   /* soft sage link colour */
 }
 
 /* Header */
 .md-header {
-  background-color: #000 !important;
-  border-bottom: 2px solid #c8102e;
+  background-color: #1e2127;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.06);
 }
 
 /* Tabs */
 .md-tabs {
-  background-color: #000 !important;
-  border-bottom: 1px solid #00a859;
+  background-color: #1a1d23;
+  box-shadow: none;
 }
 
-/* Active tab */
-.md-tabs__link--active {
-  color: #00a859 !important;
+.md-tabs__link {
+  opacity: 0.7;
+}
+
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  opacity: 1;
+  color: #6aab8a;
 }
 
 /* Links */
 a {
-  color: #00a859 !important;
-}
-a:hover {
-  color: #c8102e !important;
+  color: #6aab8a;
+  text-decoration: none;
 }
 
-/* Search highlight (this is where teal often appears) */
-mark {
-  background-color: #c8102e;
-  color: white;
+a:hover {
+  color: #8dc4a5;
+}
+
+/* Active navigation item */
+.md-nav__link--active {
+  color: #6aab8a;
+  font-weight: 500;
+}
+
+/* Navigation hover */
+.md-nav__link:hover {
+  color: #8dc4a5;
+}
+
+/* Sidebar */
+.md-nav {
+  font-size: 0.75rem;
 }
 
 /* Buttons */
 .md-button {
-  background-color: #c8102e !important;
+  background: transparent;
+  border: 1px solid #333840;
+  color: #c9cdd6;
+  border-radius: 4px;
 }
+
 .md-button:hover {
-  background-color: #00a859 !important;
+  border-color: #6aab8a;
+  color: #6aab8a;
+}
+
+/* Code blocks */
+pre code {
+  background-color: #14171c;
+  border-radius: 6px;
+}
+
+.md-typeset code {
+  background-color: rgba(255, 255, 255, 0.06);
+  color: #b5c0b8;
+  border-radius: 3px;
+  padding: 0.1em 0.3em;
+}
+
+/* Search highlight */
+mark {
+  background-color: rgba(90, 158, 120, 0.18);
+  color: inherit;
+}
+
+/* Search input */
+.md-search__input {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+/* Footer */
+.md-footer {
+  background-color: #1a1d23;
+}
+
+/* Table of contents active */
+.md-nav__link[data-md-state="blur"] {
+  color: #5a6070;
 }

@@ -1,17 +1,16 @@
 site_name: Maghreb Wiki
 site_description: Documentation for Maghreb vACC
-site_url: https://maghreb-events-website.github.io/mk-docs-wiki-demo/
+site_url: https://maghreb-events-website.github.io/wiki-demo/
 
 theme:
   name: material
-
   logo: assets/logo.png
   favicon: assets/logo.png
 
   palette:
     - scheme: slate
-      primary: black
-      accent: red
+      primary: custom
+      accent: custom
 
       toggle:
         icon: material/brightness-4
