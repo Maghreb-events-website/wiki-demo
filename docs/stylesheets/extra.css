@@ -1,0 +1,56 @@
+/* Base background */
+body {
+  background-color: #000;
+  color: #e6e6e6;
+}
+
+/* Header */
+.md-header {
+  background-color: #000;
+  border-bottom: 2px solid #c8102e;
+}
+
+/* Tabs */
+.md-tabs {
+  background-color: #000;
+  border-bottom: 1px solid #00a859;
+}
+
+/* Links */
+a {
+  color: #00a859;
+}
+a:hover {
+  color: #c8102e;
+}
+
+/* Sidebar */
+.md-nav {
+  background-color: #0a0a0a;
+}
+
+/* Active link */
+.md-nav__link--active {
+  color: #00a859 !important;
+}
+
+/* Buttons */
+.md-button {
+  background-color: #c8102e;
+  color: white;
+}
+.md-button:hover {
+  background-color: #00a859;
+}
+
+/* Code blocks */
+pre code {
+  background-color: #111;
+  border-left: 3px solid #00a859;
+}
+
+/* Footer */
+.md-footer {
+  background-color: #000;
+  border-top: 2px solid #c8102e;
+}

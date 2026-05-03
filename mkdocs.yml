@@ -1,19 +1,21 @@
-site_name: Maghreb Events Wiki
-site_description: Documentation for Maghreb Events
+site_name: Maghreb Wiki
+site_description: Documentation for Maghreb vACC
 site_url: https://maghreb-events-website.github.io/mk-docs-wiki-demo/
 
 theme:
   name: material
 
+  logo: assets/logo.png
+  favicon: assets/logo.png
+
   palette:
-    scheme: slate  
+    - scheme: slate
+      primary: black
+      accent: red
 
-    primary: red
-    accent: white
-
-    toggle:
-      icon: material/brightness-4
-      name: Switch theme
+      toggle:
+        icon: material/brightness-4
+        name: Switch theme
 
   features:
     - navigation.tabs
@@ -22,6 +24,9 @@ theme:
     - navigation.instant
     - search.highlight
     - content.code.copy
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - Home: index.md
