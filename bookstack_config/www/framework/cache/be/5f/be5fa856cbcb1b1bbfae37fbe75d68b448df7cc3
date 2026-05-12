@@ -1,0 +1,131 @@
+1778591184s:4692:"<h1 id="bkmrk-markdown-guide-%28with">Markdown Guide (with Examples)</h1>
+<p id="bkmrk-markdown-is-a-simple">Markdown is a simple way to format text using plain characters. It’s widely used for notes, documentation, GitHub READMEs, blogs, and more.</p>
+<hr id="bkmrk-">
+<h2 id="bkmrk-1.-headings">1. Headings</h2>
+<p id="bkmrk-use-%23-to-create-head">Use <code>#</code> to create headings.</p>
+<pre id="bkmrk-%23-heading-1-%23%23-headi"><code class="language-md"># Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+</code></pre>
+<h3 id="bkmrk-example-output%3A">Example output:</h3>
+<h1 id="bkmrk-heading-1">Heading 1</h1>
+<h2 id="bkmrk-heading-2">Heading 2</h2>
+<h3 id="bkmrk-heading-3">Heading 3</h3>
+<hr id="bkmrk--1">
+<h2 id="bkmrk-2.-bold-and-italic-t">2. Bold and Italic Text</h2>
+<h3 id="bkmrk-bold">Bold</h3>
+<p id="bkmrk-use-%2A%2Adouble-asteris">Use <code>**double asterisks**</code> or <code>__double underscores__</code>.</p>
+<pre id="bkmrk-%2A%2Athis-is-bold-text%2A"><code class="language-md">**This is bold text**
+__This is also bold__
+</code></pre>
+<h3 id="bkmrk-italic">Italic</h3>
+<p id="bkmrk-use-%2Asingle-asterisk">Use <code>*single asterisks*</code> or <code>_underscores_</code>.</p>
+<pre id="bkmrk-%2Athis-is-italic-text"><code class="language-md">*This is italic text*
+_This is also italic_
+</code></pre>
+<h3 id="bkmrk-bold-%2B-italic">Bold + Italic</h3>
+<pre id="bkmrk-%2A%2A%2Athis-is-bold-and-"><code class="language-md">***This is bold and italic***
+</code></pre>
+<hr id="bkmrk--2">
+<h2 id="bkmrk-3.-lists">3. Lists</h2>
+<h3 id="bkmrk-unordered-lists">Unordered Lists</h3>
+<p id="bkmrk-use--%2C-%2A%2C-or-%2B.">Use <code>-</code>, <code>*</code>, or <code>+</code>.</p>
+<pre id="bkmrk---apples---bananas--"><code class="language-md">- Apples
+- Bananas
+- Oranges
+</code></pre>
+<h3 id="bkmrk-ordered-lists">Ordered Lists</h3>
+<p id="bkmrk-use-numbers.">Use numbers.</p>
+<pre id="bkmrk-1.-first-item-2.-sec"><code class="language-md">1. First item
+2. Second item
+3. Third item
+</code></pre>
+<hr id="bkmrk--3">
+<h2 id="bkmrk-4.-links">4. Links</h2>
+<pre id="bkmrk-%5Bopenai%5D%28https%3A%2F%2Fwww"><code class="language-md">[OpenAI](https://www.openai.com)
+</code></pre>
+<hr id="bkmrk--4">
+<h2 id="bkmrk-5.-images">5. Images</h2>
+<pre id="bkmrk-%21%5Balt-text%5D%28https%3A%2F%2F"><code class="language-md">![Alt text](https://example.com/image.jpg)
+</code></pre>
+<hr id="bkmrk--5">
+<h2 id="bkmrk-6.-code">6. Code</h2>
+<h3 id="bkmrk-inline-code">Inline code</h3>
+<p id="bkmrk-use-backticks-%60%3A">Use backticks <code>`</code>:</p>
+<pre id="bkmrk-use-the-%60print%28%29%60-fu"><code class="language-md">Use the `print()` function in Python.
+</code></pre>
+<h3 id="bkmrk-code-blocks">Code blocks</h3>
+<p id="bkmrk-use-triple-backticks">Use triple backticks:</p>
+<pre id="bkmrk-%60%60%60python-def-hello%28"><code class="language-md">```python
+def hello():
+    print("Hello, world!")
+</code></pre>
+<pre id="bkmrk-----%23%23-7.-blockquote"><code>
+---
+
+## 7. Blockquotes
+
+Use `&gt;`:
+
+```md
+&gt; This is a quote.
+</code></pre>
+<hr id="bkmrk--6">
+<h2 id="bkmrk-8.-horizontal-line">8. Horizontal Line</h2>
+<p id="bkmrk-use-three-dashes%3A">Use three dashes:</p>
+<pre id="bkmrk----"><code class="language-md">---
+</code></pre>
+<hr id="bkmrk--7">
+<h2 id="bkmrk-9.-tables">9. Tables</h2>
+<pre id="bkmrk-%7C-name-%7C-age-%7C-city-"><code class="language-md">| Name   | Age | City    |
+|--------|-----|---------|
+| Alice  | 14  | London  |
+| Bob    | 15  | Paris   |
+</code></pre>
+<hr id="bkmrk--8">
+<h2 id="bkmrk-10.-checkboxes-%28task">10. Checkboxes (Task Lists)</h2>
+<pre id="bkmrk---%5Bx%5D-learn-markdown"><code class="language-md">- [x] Learn Markdown
+- [ ] Build a project
+- [ ] Master formatting
+</code></pre>
+<hr id="bkmrk--9">
+<h2 id="bkmrk-11.-escaping-charact">11. Escaping Characters</h2>
+<p id="bkmrk-if-you-want-to-show-">If you want to show special characters, use a backslash <code>\</code>.</p>
+<pre id="bkmrk-%5C%2Athis-is-not-italic"><code class="language-md">\*This is not italic\*
+</code></pre>
+<hr id="bkmrk--10">
+<h2 id="bkmrk-12.-combining-everyt">12. Combining Everything</h2>
+<pre id="bkmrk-%23-my-notes-%23%23-today%E2%80%99"><code class="language-md"># My Notes
+
+## Today’s Tasks
+
+- [x] Study Markdown
+- [ ] Practice coding
+
+### Reminder
+
+&gt; “Practice makes progress.”
+
+Check [this site](https://maghrebvacc.com) for more info.
+
+```
+</code></pre>
+<pre id="bkmrk-----%23%23-quick-cheat-s"><code>
+---
+
+## Quick Cheat Sheet
+
+| Feature | Syntax |
+|--------|--------|
+| Heading | `#` |
+| Bold | `**text**` |
+| Italic | `*text*` |
+| Link | `[text](url)` |
+| List | `- item` |
+| Code | `` `code` `` |
+| Blockquote | `&gt;` |
+
+---
+</code></pre>
+";

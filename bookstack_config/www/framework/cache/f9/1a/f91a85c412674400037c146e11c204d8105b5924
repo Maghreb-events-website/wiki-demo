@@ -1,0 +1,23 @@
+1778588747s:1908:"<h2 id="bkmrk-what-is-vatis">What is vATIS</h2>
+<p id="bkmrk-vatis-is-the-softwar">vATIS is the software we use to connect and 'ATIS' online directly to the network. You may have noticed while flying that it is not just the controller themselves that is connected. An ATIS provides information about an airports conditions and NOTAM's to pilots that are flying, an example of an ATIS is bellow.</p>
+<blockquote id="bkmrk-gmmn-atis-info-a-113">
+<p>GMMN ATIS INFO A 1130Z. EXPECT ILS/Z RWY 35 LEFT. TRL FL50 /RWY35L FOR LDG. /RWY35R FOR TAKEOFF. /RISK OF CONFUSION BETWEEN RWY 35L AND RWY 35R. / RISK OF CONFUSION BETWEEN RWY 35R AND TAXIWAY TANGO. /AFTER VACATING RUNWAY 35L HOLD SHORT OF RUNWAY 35R. /ON FIRST CONTACT ADVISE TOWER ABOUT EXPECTED VACATING TAXIWAY. /HEAVY TRAFFIC ENTERING OR LEAVING STANDS MUST USE MINIMUM POWER. 01009KT 300V110 VIS 10KM SCT030 22/13 Q1016 NOSIG NOTAMS... BIRDS IN VICINITY OF AD. A</p>
+</blockquote>
+<h2 id="bkmrk-how-to-setup-vatis">How to Setup vATIS</h2>
+<p id="bkmrk-when-you-first-downl">When you first download the app, you must import the vATIS profile, this is found in the Downloaded sectorfile in the "vATIS" folder located at</p>
+<blockquote id="bkmrk-gmmm-%3E-plugins-%3E-vat">
+<p>GMMM &gt; Plugins &gt; vATIS &gt; The profile</p>
+</blockquote>
+<p id="bkmrk-double-click-it-to-l">Double click it to load it into the software</p>
+<p id="bkmrk-next-go-to-%22user-con">Next go to "User configuration" and enter your</p>
+<ul id="bkmrk-%22name%22---this-is-the">
+<li>"Name" - this is the name which shows up as the ATIS Connection</li>
+<li>"VATSIM ID" - this is your CID you were given when making your VATSIM account</li>
+<li>"Password" - Your VATSIM password</li>
+<li>"Controller Rating" - Your controller rating</li>
+</ul>
+<p id="bkmrk-" style="text-align:center;">
+<img src="http://localhost:6875/attachments/1" alt="drawing" width="250">
+</p>
+Then click "Save"
+";

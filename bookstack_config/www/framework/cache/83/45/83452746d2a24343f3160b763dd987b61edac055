@@ -1,0 +1,28 @@
+1778591789s:1398:"<h2 id="bkmrk-what-is-trackaudio%3F">What is TrackAudio?</h2>
+<p id="bkmrk-trackaudio-is-a-next">TrackAudio is a next generation Audio-For-VATSIM ATC Client for macOS, Linux and Windows.</p>
+<p id="bkmrk-congratulations%21-you">Congratulations! You are now a fully fledged VATSIM controller. Now we need to talk to the aircraft we will be controlling on the network. In Maghreb
+we use TrackAudio as our recommended audio client.</p>
+<h2 id="bkmrk-setting-up-trackaudi">Setting up TrackAudio</h2>
+<ul id="bkmrk-input-your-vatsim-de">
+<li>Input your VATSIM Details
+<ul>
+<li>Your VATSIM CID</li>
+<li>Your VATSIM Password</li>
+</ul>
+</li>
+<li>Configure audio devices
+<ul>
+<li>Select a Headset, Speaker and Input device</li>
+</ul>
+</li>
+<li>Set a Push-To-Talk (PTT) bind</li>
+<li>Save your changes by pressing 'Close' on the bottom right</li>
+</ul>
+<h2 id="bkmrk-connecting-and-trans">Connecting and Transmitting on Frequency</h2>
+<ul id="bkmrk-open-trackaudio%2C-if-">
+<li>Open TrackAudio, if setup correctly and connected to VATSIM you will see a green 'CONNECT' button.</li>
+<li>Once connected, you will see the position you have logged on as at the top. If your callsign is correct, then the frequencies will populate automatically.</li>
+<li>Click 'TX' (transmit) to both recieve and transmit on the selected frequency.</li>
+<li>Use your selected PTT button to transmit on the frequency.</li>
+</ul>
+";

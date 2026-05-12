@@ -1,0 +1,32 @@
+1778598368s:1634:"<p id="bkmrk-the-vatsim-atc-commu">The VATSIM ATC Communication System, is a free, open-source voice communication system built specifically for VATSIM air traffic controllers. It provides a fast and easy way to communicate and coordinate with your neighbouring controllers - no extra TeamSpeak servers, no Discord, no extra accounts. Simply install the voice communication client, authenticate with your VATSIM account, and you're ready to go.#</p>
+<p id="bkmrk-vacs-is-a-recommende">vacs is a recommended software by VATSSA. Used as a ground to ground coordination system, to coordinate with other controllers.</p>
+<p id="bkmrk-when-logging-onto-va">When logging onto vacs, you will every single sector available to be called. So, who do I call?
+You are to call the position in which it concerns! Say you are on ground (GMC), and want to reach tower (TWR) but only Approach (APP) is online, you should still call TWR and APP will pick up the call! It's that simple.</p>
+<p id="bkmrk-abbreviations%3A">Abbreviations:</p>
+<ul id="bkmrk-cld---clearance-deli">
+<li>
+<p>CLD - Clearance Delivery (DEL)</p>
+</li>
+<li>
+<p>GMC - Ground Movement Control (GND)</p>
+</li>
+<li>
+<p>TWR - Tower (TWR)</p>
+</li>
+<li>
+<p>APP - Approach (APP)</p>
+</li>
+<li>
+<p>RDR - Radar (APP)</p>
+</li>
+<li>
+<p>ACC - Area Control Centre (CTR)</p>
+<br>
+</li>
+<li>
+<p><em>AFIS/INFO - Aerodrome Flight Information Service (I_xxx)</em></p>
+</li>
+</ul>
+<p id="bkmrk-install-vacs-here">Install vacs <a href="https://vacs.network/">HERE</a></p>
+<p id="bkmrk-more-in-depth-docume">More in-depth documentation can be found <a href="https://docs.vacs.network/">HERE</a></p>
+";

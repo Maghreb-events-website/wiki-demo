@@ -1,0 +1,32 @@
+1778587446s:2237:"<h2 id="bkmrk-what-is-audio-for-va">What is Audio for VATSIM?</h2>
+<p id="bkmrk-audio-for-vatsim-%28af">Audio for VATSIM (AFV) is a modern, high-fidelity voice communication system for the VATSIM. It provides a realistic, low-latency, VoIP-based codec that simulates VHF/HF radio characteristics, including signal degradation based on aircraft altitude, position, and distance from transmitters.</p>
+<p id="bkmrk-our-resources-page%2C-">Our resources page, where you can find the Audio for VATSIM download link can be found <a href="https://eaip2.vatssa.com/General/Resources/Links/">here</a></p>
+<p id="bkmrk-%21%21%21-warning-audio-fo">!!! warning
+Audio for VATSIM is not VATSSA's recommended controller audio client. We recommend TrackAudio, a link to the TrackAudio guide can be found <a href="https://eaip2.vatssa.com/General/Resources/Software/TrackAudio%20Guide%20-%20Controller/">here</a></p>
+<h2 id="bkmrk-setting-up-audio-for">Setting up Audio for VATSIM</h2>
+<ul id="bkmrk-input-your-vatsim-de">
+<li>Input your VATSIM Details
+<ul>
+<li>Your VATSIM CID</li>
+<li>Your VATSIM Password</li>
+</ul>
+</li>
+<li>Configure audio devices
+<ul>
+<li>Select a Headset, Speaker and Input device</li>
+</ul>
+</li>
+<li>Set a Push-To-Talk (PTT) bind</li>
+<li>Save your changes by pressing 'Apply all' on the bottom right</li>
+</ul>
+<p id="bkmrk-"><img src="img/AFVSettings.png" alt="Audio for VATSIM settings"></p>
+<h2 id="bkmrk-connecting-and-liste">Connecting and Listening to ATC</h2>
+<ul id="bkmrk-open-audio-for-vatsi">
+<li>Open Audio for VATSIM, if setup correctly and connected to VATSIM you will be able to connect by pressing the 'Connect' button.</li>
+<li>Click 'RX' (receive) to listen in the frequency.
+<img src="img/AFVControlling-1.png" alt="AFV Controlling 1 - RX a Frequency"></li>
+<li>Click 'TX' (transmit) to transmit on the frequency. You will still need to utilise your Push-To-Talk key.
+<img src="img/AFVControlling-2.png" alt="AFV Controlling 2 - TX a Frequency"></li>
+</ul>
+<p id="bkmrk-still-having-issues-">Still having issues with TrackAudio? Feel free to ask for help in one of our channels in the VATSSA Discord server which can be found in the <a href="https://community.vatsim.net/">VATSIM Community Server's</a></p>
+";
